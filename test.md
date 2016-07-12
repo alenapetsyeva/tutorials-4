@@ -1,8 +1,10 @@
 ---
-title: test
+title: example new
 description: example
-tag:
+tags: [tutorial:product/sapHana, tutorial:product/hana_studio]
+qrcode: true
 ---
+
 Sometimes you want numbered lists:
 
 1. One
