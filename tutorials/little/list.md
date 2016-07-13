@@ -1,6 +1,6 @@
 ---
-title: text
-description: text with qr
+title: list
+description: list with qr
 tags: [tutorial:product/sapHana, tutorial:product/hana_studio]
 qrcode: true
 ---
