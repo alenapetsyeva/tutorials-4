@@ -14,4 +14,4 @@ qrcode: true
 
 <address@example.com>
 
-***There are three different types of messages: Note, Caution and Warning.***
+
