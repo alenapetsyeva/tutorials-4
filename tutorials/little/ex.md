@@ -1,6 +1,6 @@
 ---
 title: example new
-description: example for testing
+description: example for testing ghjkl;g
 tags: [tutorial:product/sapHana, tutorial:product/hana_studio]
 qrcode: true
 ---
