@@ -5,6 +5,7 @@ tags: [  tutorial>intermediate, topic>cloud, topic>mobile, products>sap-hana-clo
 
 ---
 ## Prerequisites  
+
   - **Proficiency:** Intermediate
 
 ## Next Steps
