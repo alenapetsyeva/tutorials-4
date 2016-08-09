@@ -24,3 +24,6 @@ tags: [  tutorial>intermediate, topic>cloud, topic>mobile, products>sap-hana-clo
 
     - **Package name:** `com.sap.hana.cloud.samples.weatherapp.api`
     - **Classname:** `WeatherService`
+
+### Time to Complete
+** about 10 minutes**
