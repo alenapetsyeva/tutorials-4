@@ -8,9 +8,8 @@ tags: [  tutorial>advanced, tutorial:type/project ]
 
 ## Prerequisites  
 
-  - **Proficiency:** Advanced
-  - [Source Code Versioning System](http://go.sap.com/developer/tutorials/ci-best-practices-scm.html)
-  - [Build Scheduler](http://go.sap.com/developer/tutorials/ci-best-practices-build.html)
+    - [Source Code Versioning System](http://go.sap.com/developer/tutorials/ci-best-practices-scm.html)
+ 
 
 ## Next Steps
 
