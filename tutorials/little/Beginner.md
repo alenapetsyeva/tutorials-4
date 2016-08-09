@@ -8,9 +8,8 @@ tags: [  tutorial>beginner, topic>cloud, topic>mobile, products>sap-hana-cloud-p
   - **Proficiency:** Beginner
 - [Artifact Repository](http://go.sap.com/developer/tutorials/ci-best-practices-artifacts.html)
 
+### Next Steps
 
-#### Prerequisites
-- An appropriate Java JDK version for Nexus is installed on the machine.
 
 
 
@@ -22,7 +21,7 @@ tags: [  tutorial>beginner, topic>cloud, topic>mobile, products>sap-hana-cloud-p
     - **Classname:** `WeatherService`
 
 ### Time to Complete
-**about 10 minutes**
+**About 10 minutes**
 
-## Next Steps
+
   
