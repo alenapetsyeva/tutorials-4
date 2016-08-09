@@ -11,9 +11,7 @@ tags: [  tutorial>intermediate, topic>cloud, topic>mobile, products>sap-hana-clo
    - [Artifact Repository](http://go.sap.com/developer/tutorials/ci-best-practices-artifacts.html)
   - [Back to the Navigator](http://go.sap.com/developer/tutorials/ci-best-practices-intro.html)
   
-  ## Duration
-**15 min**
-
+ 
 #### Prerequisites
 - An appropriate Java JDK version for Nexus is installed on the machine.
 
