@@ -8,7 +8,6 @@ tags: [  tutorial>beginner, topic>cloud, topic>mobile, products>sap-hana-cloud-p
   - **Proficiency:** Beginner
 - [Artifact Repository](http://go.sap.com/developer/tutorials/ci-best-practices-artifacts.html)
 
-## Next Steps
 
 
 
