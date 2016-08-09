@@ -8,7 +8,7 @@ tags: [  tutorial>advanced, tutorial:type/project ]
 
 ## Prerequisites  
 
-    - [Source Code Versioning System](http://go.sap.com/developer/tutorials/ci-best-practices-scm.html)
+    - [Source](http://go.sap.com/developer/tutorials/ci-best-practices-scm.html)
  
 
 ## Next Steps
