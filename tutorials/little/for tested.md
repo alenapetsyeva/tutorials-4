@@ -16,7 +16,7 @@ tags: [  tutorial>intermediate, topic>cloud, topic>mobile, products>sap-hana-clo
 - An appropriate Java JDK version for Nexus is installed on the machine.
 
 ### Time to Complete
-**10 min**
+**15 min**
 
 ---
 
