@@ -11,6 +11,7 @@ tags: [  tutorial>beginner, topic>cloud, topic>mobile, products>sap-hana-cloud-p
 ## Next Steps
 
 
+
 ---
 
 1. Once you have your APPID, create a new service class with the following properties:
