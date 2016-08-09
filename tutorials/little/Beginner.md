@@ -25,4 +25,4 @@ tags: [  tutorial>beginner, topic>cloud, topic>mobile, products>sap-hana-cloud-p
     - **Classname:** `WeatherService`
 
 ### Time to Complete
-** about 10 minutes**
+**about 10 minutes**
