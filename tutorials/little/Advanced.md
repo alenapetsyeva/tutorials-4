@@ -2,7 +2,7 @@
 
 title: Continuous Integration (CI) Best Practices with SAP: Landscape Configuration
 description: Part 3.4: Configuring the CI Component Landscape.
-tags: [  tutorial>intermediate, tutorial:type/project ]
+tags: [  tutorial>advanced, tutorial:type/project ]
 
 ---
 
