@@ -21,7 +21,13 @@ qrcode: true
     </servlet-class>
     </servlet>
 ```
+and
 
+| Left-Aligghgggggggggggggggggg fxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxfxggggggggg | Center Aligned  | Right Aligned |
+| :------------------------------------- |:---------------:| -------------:|
+| col 3 ishhhhhhhhhhhhhhhhhhfkjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhh  | some wordy text | $1600 |
+| col 2 ihgjhgjhgjhgjhgjhgjhjhfkkkkkkkkkkkkkkkgjhgjhgjhg   | centered        |   $12 |
+| zebra s glggggggggggglgggjfkkkkkkkkkkkkkkkkkkkjfkkkkkggggggltripes | are neat        |    $1 |
 You can use:
 
 ***Text*** (including bold, italic, etc)
@@ -163,10 +169,4 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
-and
 
-| Left-Aligghggggggggggggggggggggggggggg | Center Aligned  | Right Aligned |
-| :------------------------------------- |:---------------:| -------------:|
-| col 3 ishhhhhhhhhhhhhhhhhhhhhhhhhhhhh  | some wordy text | $1600 |
-| col 2 ihgjhgjhgjhgjhgjhgjhgjhgjhgjhg   | centered        |   $12 |
-| zebra s glggggggggggglgggggggggltripes | are neat        |    $1 |
