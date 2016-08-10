@@ -8,7 +8,6 @@ tags: [  tutorial>intermediate, tutorial:type/project ]
 
 ## Prerequisites
  
-
 ## Next Steps
  - [Back to the Navigator](http://go.sap.com/developer/tutorials/ci-best-practices-intro.html)
  
