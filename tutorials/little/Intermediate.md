@@ -16,7 +16,7 @@ tags: [  tutorial>intermediate, topic>cloud, topic>mobile, products>sap-hana-clo
 - An appropriate Java JDK version for Nexus is installed on the machine.
 
 ### Time to Complete
-This section **takes about 10 minutes to complete, and about 10 to 25 minutes after completion to get the Virtual Machine started**
+This section takes about **10 minutes** to complete, and **about 10 to 25 minutes** after completion to get the Virtual Machine started
 
 ---
 
