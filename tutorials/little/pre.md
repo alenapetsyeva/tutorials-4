@@ -11,7 +11,6 @@ tags: [  tutorial>intermediate, tutorial:type/project ]
 
 ## Next Steps
  
-  - [Build Scheduler](http://go.sap.com/developer/tutorials/ci-best-practices-build.html)
  
 
 ---
