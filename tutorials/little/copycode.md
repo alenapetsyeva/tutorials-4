@@ -445,6 +445,16 @@ function fancyAlert(arg) {
 function fancyAlert(arg) {
   if(arg) {
   180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
 ```
 ***Task Lists*** (Please note, this requires empty line before task list):
 
