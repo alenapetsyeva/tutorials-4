@@ -17,6 +17,19 @@ It's very easy to make some words **bold** and other words *italic* and ***bold 
 You can use ~~strikethrough~~ font
 [ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the 8th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+[ACCORDION-END] 
+
 [ACCORDION-BEGIN [STEP 1](#the first step)]
 ```markup
     <?xml version="1.0" encoding="UTF-8"?>
@@ -241,18 +254,7 @@ Format: `![Alt Text](url)`
 ![Example](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 1](#the 8th step)]
-***Code blocks:***
 
-```markup
- quit;
- !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
-  require 'redcarpet'
-  markdown = Redcarpet.new("Hello World!")
-  puts markdown.to_html
-  exit;
-```
-[ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 1](#the 9th step)]
 ```js
