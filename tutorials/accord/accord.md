@@ -513,7 +513,88 @@ and
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 [ACCORDION-END] 
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 1](#the 12th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+missing end
