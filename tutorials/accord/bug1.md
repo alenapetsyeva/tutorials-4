@@ -198,16 +198,6 @@ You can use ~~strikethrough~~ font
 ###### This is an h6 header
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 6]()]
-***Blockquotes***
-
-  **Example:** 
-In the words of Abraham Lincoln:
-> Pardon my French
-
-[ACCORDION-END] 
-
-
 [ACCORDION-BEGIN [STEP 7](#the 7th step)]
 ***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
 
@@ -220,4 +210,15 @@ Format: `![Alt Text](url)`
 
 ![Example](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
 [ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 8]()]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[ACCORDION-END] 
+
+
 
