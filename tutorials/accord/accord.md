@@ -127,6 +127,7 @@ tags: [tutorial:product/hana_studio]
 ```
 [ACCORDION-END]  
 
+[ACCORDION-BEGIN [STEP 1](#the second step)]
 You can use:
 
 ***Text*** (including bold, italic, etc)
@@ -135,14 +136,18 @@ You can use:
 It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
 
 You can use ~~strikethrough~~ font
+[ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the third step)]
 ***Headers***
 
   **Example:** 
 ## This is an h2 header 
 ### This is an h3 header
 ###### This is an h6 header
+[ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the forth step)]
 ***Lists***
 
   **Example:** 
@@ -163,6 +168,7 @@ You can create nested lists:
 * item1
     * one_one
     * two
+[ACCORDION-END] 
 
 ***Blockquotes***
 
