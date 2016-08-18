@@ -6,15 +6,7 @@ tags: [tutorial:product/hana_studio]
 000000
 123456
 
-[ACCORDION-BEGIN [STEP 1](#the second step)]
-Mandamus adversarium intellegebat per ne, ex graece animal nec. Eu purto dicat nam. Duo quas lorem maluisset cu, elit equidem vis at. Simul quodsi ne eum, ne sit incorrupte complectitur. Ad pro discere corrumpit adipiscing, ex mei docendi efficiantur, eam epicurei reprehendunt ne.
 
-Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
-
-Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
-
-
-[ACCORDION-END] 
 
 
 [ACCORDION-BEGIN [STEP 1](#the second step)]
@@ -26,6 +18,14 @@ You can use:
 It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
 
 You can use ~~strikethrough~~ font
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 1](#the second step)]
+Mandamus adversarium intellegebat per ne, ex graece animal nec. Eu purto dicat nam. Duo quas lorem maluisset cu, elit equidem vis at. Simul quodsi ne eum, ne sit incorrupte complectitur. Ad pro discere corrumpit adipiscing, ex mei docendi efficiantur, eam epicurei reprehendunt ne.
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 1](#the 8th step)]
