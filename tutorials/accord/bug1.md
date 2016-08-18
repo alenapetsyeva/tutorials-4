@@ -250,9 +250,33 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 [ACCORDION-END] 
-[ACCORDION-BEGIN [STEP 11](#10)]
 
+[ACCORDION-BEGIN [STEP 11](#11)]
+***There are three different types of messages: Note, Caution and Warning.***
 
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+&nbsp;
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 12](#12)]
 [ACCORDION-END] 
 
 Other contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther content
