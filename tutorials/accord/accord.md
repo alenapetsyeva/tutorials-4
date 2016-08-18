@@ -170,12 +170,16 @@ You can create nested lists:
     * two
 [ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the fifth step)]
 ***Blockquotes***
 
   **Example:** 
 In the words of Abraham Lincoln:
 > Pardon my French
 
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 1](#the fifth step)]
 ***Links***
 
   **Example:** 
@@ -185,7 +189,9 @@ In the words of Abraham Lincoln:
 <http://tut.by>
 
 <address@example.com>
+[ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the 6th step)]
 ***There are three different types of messages: Note, Caution and Warning.***
 
 >### Warning
@@ -209,7 +215,9 @@ In the words of Abraham Lincoln:
 >This is a note. 
 
 &nbsp;
+[ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the 7th step)]
 ***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
 
 Format: `![Alt Text](url)`
@@ -220,8 +228,9 @@ Format: `![Alt Text](url)`
 
 
 ![Example](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+[ACCORDION-END] 
 
-
+[ACCORDION-BEGIN [STEP 1](#the 8th step)]
 ***Code blocks:***
 
 ```markup
@@ -232,7 +241,9 @@ Format: `![Alt Text](url)`
   puts markdown.to_html
   exit;
 ```
+[ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the 9th step)]
 ```js
  quit;
  !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
@@ -241,7 +252,9 @@ Format: `![Alt Text](url)`
   puts markdown.to_html
   exit;
 ```
+[ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 1](#the 10th step)]
   **Example:** 
 ```javascript
 quit;
@@ -472,6 +485,9 @@ function fancyAlert(arg) {
 function fancyAlert(arg) {
   if(arg) {199
 ```
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 1](#the 11th step)]
 ***Task Lists*** (Please note, this requires empty line before task list):
 
   **Example:** 
@@ -480,7 +496,9 @@ function fancyAlert(arg) {
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
+[ACCORDION-END]
 
+[ACCORDION-BEGIN [STEP 1](#the 12th step)]
 ***Tables:***
 
   **Example:** 
@@ -498,3 +516,4 @@ and
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
+[ACCORDION-END] 
