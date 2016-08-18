@@ -6,6 +6,17 @@ tags: [tutorial:product/hana_studio]
 000000
 123456
 
+[ACCORDION-BEGIN [STEP 1](#the second step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+[ACCORDION-END] 
+
 [ACCORDION-BEGIN [STEP 1](#the first step)]
 ```markup
     <?xml version="1.0" encoding="UTF-8"?>
