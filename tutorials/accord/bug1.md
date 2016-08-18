@@ -221,4 +221,35 @@ In the words of Abraham Lincoln:
 [ACCORDION-END] 
 
 
+[ACCORDION-BEGIN [STEP 9](#9)]
+***There are three different types of messages: Note, Caution and Warning.***
 
+>### Warning
+>jhkjhkjhkjhkj
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+&nbsp;
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 10](#10)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+[ACCORDION-END] 
