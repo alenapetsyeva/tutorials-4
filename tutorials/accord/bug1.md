@@ -226,18 +226,15 @@ In the words of Abraham Lincoln:
 
 >### Warning
 >jhkjhkjhkjhkj
->>>>This is a Warning. 
 
 &nbsp;
 
 >### Caution
 >iikjhiojhioji
->>This is a Caution. 
 
 &nbsp;
 
 >### Note
-
 >This is a note. 
 &nbsp;
 [ACCORDION-END] 
@@ -253,3 +250,6 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 [ACCORDION-END] 
+
+Other contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther content
+
