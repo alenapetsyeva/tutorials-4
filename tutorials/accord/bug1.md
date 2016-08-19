@@ -262,7 +262,6 @@ In the words of Abraham Lincoln:
 >jhkjhkjhkjhkj
 
 &nbsp;
-
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 10](#10)]
