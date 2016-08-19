@@ -264,6 +264,62 @@ In the words of Abraham Lincoln:
 &nbsp;
 [ACCORDION-END] 
 
+[ACCORDION-BEGIN [STEP 9,1](#9)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Note
+>This is a note. 
+
+&nbsp;
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 9,2](#9)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Caution
+>iikjhiojhioji
+
+&nbsp;
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 9,3](#9)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+
+&nbsp;
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 9,4](#9)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Note
+>This is a note. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+
+&nbsp;
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 9,5](#9)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Note
+>This is a note. 
+
+&nbsp;
+
+>### Warning
+>jhkjhkjhkjhkj
+
+&nbsp;
+[ACCORDION-END] 
+
+
 [ACCORDION-BEGIN [STEP 10](#10)]
 ***Tables:***
 
