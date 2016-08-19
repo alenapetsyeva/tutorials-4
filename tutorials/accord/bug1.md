@@ -250,14 +250,17 @@ In the words of Abraham Lincoln:
 
 >### Note
 >This is a note. 
+
 &nbsp;
 
 >### Caution
 >iikjhiojhioji
+
 &nbsp;
 
 >### Warning
 >jhkjhkjhkjhkj
+
 &nbsp;
 
 [ACCORDION-END] 
