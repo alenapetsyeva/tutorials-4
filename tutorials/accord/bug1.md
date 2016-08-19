@@ -247,16 +247,20 @@ In the words of Abraham Lincoln:
 
 [ACCORDION-BEGIN [STEP 9](#9)]
 ***There are three different types of messages: Note, Caution and Warning.***
+
 >### Note
 >This is a note. 
+
 &nbsp;
 
 >### Caution
 >iikjhiojhioji
+
 &nbsp;
 
 >### Warning
 >jhkjhkjhkjhkj
+
 &nbsp;
 
 [ACCORDION-END] 
