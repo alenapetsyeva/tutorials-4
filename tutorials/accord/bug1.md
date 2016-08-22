@@ -242,6 +242,7 @@ In the words of Abraham Lincoln:
 
 >### Note
 >This is a note. 
+
 &nbsp;
 
 >### Caution
