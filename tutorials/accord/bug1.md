@@ -279,8 +279,6 @@ gfhfdghfhfghfhggfjhgfjghfj
 
 >### Warning
 >jhkjhkjhkjhkj
-
-&nbsp;
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 9,4](#9)]
