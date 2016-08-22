@@ -224,16 +224,19 @@ In the words of Abraham Lincoln:
 >>>### Warning
 >>>>### Warning
 >>>>This is a Warning. 
+
 &nbsp;
 
 >### Caution
 >iikjhiojhioji
 >>### Caution
 >>This is a Caution. 
+
 &nbsp;
 
 >### Note
 >This is a note. 
+
 &nbsp;
 [ACCORDION-END] 
 
