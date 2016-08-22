@@ -268,6 +268,8 @@ Format: `![Alt Text](url)`
 
 
 ![Example](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Example](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
 [ACCORDION-END] 
 
 
