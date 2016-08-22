@@ -264,12 +264,12 @@ Format: `![Alt Text](url)`
 
   **Example:** 
 ![Image](https://octodex.github.com/images/yaktocat.png)
-![Example](http://www.kinomania.ru/images/posters/154766.jpg)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
 
 
-![Example](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
 
-![Example](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
 [ACCORDION-END] 
 
 
