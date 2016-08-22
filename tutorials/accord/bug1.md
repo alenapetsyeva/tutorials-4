@@ -205,10 +205,6 @@ Format: `![Alt Text](url)`
 
   **Example:** 
 ![Image](https://octodex.github.com/images/yaktocat.png)
-![Example](http://www.kinomania.ru/images/posters/154766.jpg)
-
-
-![Example](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 8]()]
@@ -217,7 +213,6 @@ Format: `![Alt Text](url)`
   **Example:** 
 In the words of Abraham Lincoln:
 > Pardon my French
-
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 11](#11)]
@@ -229,18 +224,15 @@ In the words of Abraham Lincoln:
 >>>### Warning
 >>>>### Warning
 >>>>This is a Warning. 
-
 &nbsp;
 
 >### Caution
 >iikjhiojhioji
 >>### Caution
 >>This is a Caution. 
-
 &nbsp;
 
 >### Note
-
 >This is a note. 
 &nbsp;
 [ACCORDION-END] 
