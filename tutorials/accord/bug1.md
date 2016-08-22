@@ -226,14 +226,13 @@ In the words of Abraham Lincoln:
 >>>>This is a Warning. 
 
 &nbsp;
-
 >### Caution
 >iikjhiojhioji
 >>### Caution
 >>This is a Caution. 
 gfhfdghfhfghfhggfjhgfjghfj
 
-
+&nbsp;
 >### Note
 >This is a note. 
 
