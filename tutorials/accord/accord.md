@@ -270,6 +270,8 @@ Format: `![Alt Text](url)`
 ![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
 
 ![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+
 [ACCORDION-END] 
 
 
