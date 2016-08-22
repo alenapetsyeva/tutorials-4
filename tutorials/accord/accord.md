@@ -257,7 +257,7 @@ In the words of Abraham Lincoln:
 &nbsp;
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 1](#the 7th step)]
+[ACCORDION-BEGIN [Image](#Image )]
 ***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
 
 Format: `![Alt Text](url)`
