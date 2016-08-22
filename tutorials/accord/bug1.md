@@ -334,3 +334,31 @@ Content in the first column | Content in the second column
 
 Other contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther contentOther content
 
+[ACCORDION-BEGIN [header2]()]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [header3]()]
+### This is an h3 header
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [header4]()]
+#### This is an h4 header
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [header5]()]
+##### This is an h5 header
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [header6]()]
+###### This is an h6 header
+[ACCORDION-END]
+
+
+
+
+
+
