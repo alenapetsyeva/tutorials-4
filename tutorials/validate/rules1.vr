@@ -1,0 +1,44 @@
+[VALIDATION_1]
+###Rule
+exact-match
+
+###Question
+Marina's age?
+
+###Match
+secret
+[VALIDATION_1]
+
+[VALIDATION_2]
+###Rule
+regex-substring
+
+###Question
+Enter Marina's surname?
+
+###Match
+Amosova
+[VALIDATION_2]
+
+[VALIDATION_3]
+###Rule
+regex-substring
+
+###Question
+What is day today?
+
+###Match
+Monday
+[VALIDATION_3]
+
+[VALIDATION_4]
+###Rule
+regex-with-id-exact-match
+
+###Question
+Enter city where Marina lives
+
+###Match
+Grodno
+[VALIDATION_4]
+
