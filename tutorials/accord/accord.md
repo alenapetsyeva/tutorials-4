@@ -588,7 +588,9 @@ and
 | col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
 | col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
 | zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [](# missing STEP)]
 ***Tables:***
@@ -608,7 +610,10 @@ and
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
+
 
 [ACCORDION-BEGIN [missing #Step]()]
 ***Tables:***
