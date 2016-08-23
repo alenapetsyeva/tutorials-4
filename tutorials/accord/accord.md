@@ -46,7 +46,7 @@ Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterru
 ```
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 1](#the first step)]
+[ACCORDION-BEGIN [STEP 1](#the first step)]https://github.com/dzianisava/tutorials/graphs
 ```markup
     <?xml version="1.0" encoding="UTF-8"?>
     <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
@@ -276,7 +276,7 @@ Format: `![Alt Text](url)`
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [Image ](jpg)]
-![homiak](http://www.kartinki24.ru/uploads/gallery/main/79/kartinki24_ru_animals_hamsters_0008.jpg)
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
 
 [ACCORDION-BEGIN [STEP 1](#the 9th step)]
 ```js
