@@ -19,6 +19,8 @@ You will modify an Android Studio project to include a number of resources from 
 
 After running the SDK installer you will find the native SDK files in the installation folder: `<install_path>/MobileSDK3/NativeSDK/`
 
+
+
 To use the MAF Login Component you must import a number of Libraries and Resources. MAF Libraries were installed with the SMP SDK installer into the folder specified by you when you executed the installer. MAF is shipped with various resources including Android, iOS and Windows specific files like: images, layouts, localization, XML documents etc. 
 
 The procedure shown in this tutorial can be used for any of the Android activity types – including a “no activity” empty project. In this tutorial, we will use an application name, and UI activity titles that match the Android native app tutorial for the Northwind OData service.
@@ -36,7 +38,7 @@ The procedure shown in this tutorial can be used for any of the Android activity
 [ACCORDION-BEGIN [STEP 2]()]
 2. Right click on `app` and select **New > Module** from the context menu.
 
-[DONE]
+
 [ACCORDION-END]    
     
 [ACCORDION-BEGIN [STEP 3](STEP 3)]  
@@ -97,6 +99,8 @@ The procedure shown in this tutorial can be used for any of the Android activity
 
 [ACCORDION-BEGIN [](STEP4)]
 13. In Android Studio in the **Project** and **Project Files** view, right-click on `app` and select paste. In the copy dialog box, add `libs` to then end of the **To directory** path and click **OK**. This will add the `AfariaSLL` library to the project as well as create the `libs` directory.
+
+[DONE]
 
     ![pasting one library into your project](mg6-3-13.png)
     
