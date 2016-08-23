@@ -1,3 +1,14 @@
+[VALIDATION_1]
+###Rule
+exact-match
+
+###Question
+Marina's age?
+
+###Match
+secret
+[VALIDATION_1]
+
 [STEP 1]
 ###Rule
 exact-match
