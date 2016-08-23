@@ -29,6 +29,7 @@ The procedure shown in this tutorial can be used for any of the Android activity
 ---
 [ACCORDION-BEGIN [STEP 1]()]
 1. Open the `NWAndroid` project you created in the [previous tutorial](http://go.sap.com/developer/tutorials/hcpdo-basic-android-app.html).
+[DONE]
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2]()]
