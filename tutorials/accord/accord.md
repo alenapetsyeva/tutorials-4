@@ -18,6 +18,8 @@ You can use:
 It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
 
 You can use ~~strikethrough~~ font
+
+[DONE]
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 1](#the second step)]
@@ -31,6 +33,8 @@ Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterru
 Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
 Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
 Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 1](#the 8th step)]
@@ -44,7 +48,9 @@ Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterru
   puts markdown.to_html
   exit;
 ```
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the first step)]https://github.com/dzianisava/tutorials/graphs
 ```markup
@@ -165,7 +171,9 @@ Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterru
         <role-name>Everyone</role-name>
     </auth-constraint>
 ```
-[ACCORDION-END]  
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the second step)]
 You can use:
@@ -176,7 +184,9 @@ You can use:
 It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
 
 You can use ~~strikethrough~~ font
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the third step)]
 ***Headers***
@@ -185,6 +195,8 @@ You can use ~~strikethrough~~ font
 ## This is an h2 header 
 ### This is an h3 header
 ###### This is an h6 header
+
+[DONE]
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 1](#the forth step)]
@@ -208,7 +220,9 @@ You can create nested lists:
 * item1
     * one_one
     * two
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the fifth step)]
 ***Blockquotes***
@@ -217,7 +231,9 @@ You can create nested lists:
 In the words of Abraham Lincoln:
 > Pardon my French
 
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the fifth step)]
 ***Links***
@@ -229,7 +245,9 @@ In the words of Abraham Lincoln:
 <http://tut.by>
 
 <address@example.com>
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the 6th step)]
 ***There are three different types of messages: Note, Caution and Warning.***
@@ -255,7 +273,9 @@ In the words of Abraham Lincoln:
 >This is a note. 
 
 &nbsp;
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [Image](#Image )]
 ***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
@@ -273,11 +293,15 @@ Format: `![Alt Text](url)`
 ![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
 ![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
 
+
+[DONE]
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [Image ](jpg)]
 ![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 
 
@@ -291,7 +315,9 @@ Format: `![Alt Text](url)`
   puts markdown.to_html
   exit;
 ```
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the 10th step)]
   **Example:** 
@@ -524,7 +550,9 @@ function fancyAlert(arg) {
 function fancyAlert(arg) {
   if(arg) {199
 ```
-[ACCORDION-END] 
+
+[DONE]
+[ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the 11th step)]
 ***Task Lists*** (Please note, this requires empty line before task list):
@@ -535,6 +563,8 @@ function fancyAlert(arg) {
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
+
+[DONE]
 [ACCORDION-END]
 
 [ACCORDION-BEGIN [STEP 1](#the 12th step)]
@@ -650,6 +680,8 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
+[DONE]
+[ACCORDION-END]
 and
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
