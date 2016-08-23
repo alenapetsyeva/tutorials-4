@@ -9,7 +9,7 @@ tags: [tutorial:product/hana_studio]
 
 
 
-[ACCORDION-BEGIN [STEP 1](#the sпрпр lectitur. Ad pro disceecond step)]
+[ACCORDION-BEGIN [STEP 1](#the sпрпр lectitur. Adl nec. Eu p pro disceecond step)]
 You can use:
 
 ***Text*** (including bold, italic, etc)
