@@ -277,6 +277,10 @@ Format: `![Alt Text](url)`
 
 [ACCORDION-BEGIN [Image ](jpg)]
 ![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+[ACCORDION-END] 
+
+
+
 
 [ACCORDION-BEGIN [STEP 1](#the 9th step)]
 ```js
