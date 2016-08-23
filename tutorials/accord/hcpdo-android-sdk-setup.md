@@ -35,10 +35,12 @@ The procedure shown in this tutorial can be used for any of the Android activity
 
 [ACCORDION-BEGIN [STEP 2]()]
 2. Right click on `app` and select **New > Module** from the context menu.
+[DONE]
 [ACCORDION-END]    
     
 [ACCORDION-BEGIN [STEP 3](STEP 3)]  
 3. Select Import **.JAR/.AAR Package** and click **Next**.
+[DONE]
 [ACCORDION-END] 
     
 [ACCORDION-BEGIN [](STEP4)]      
@@ -63,6 +65,7 @@ The procedure shown in this tutorial can be used for any of the Android activity
     The path should be: `<install_path>/MobileSDK3/NativeSDK/ODataFramework/Android/libraries/MobilePlace-3.11.5.aar`
 
     > Note `MobilePlace-xxx.aar` is under the `ODataFramework` directory, not `MAFReuse`
+[DONE]
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [](STEP4)]
@@ -95,6 +98,7 @@ The procedure shown in this tutorial can be used for any of the Android activity
 14. In your file system, copy the remaining libraries below from the `<install_path>/MobileSDK3/NativeSDK/ODataFramework/Android/libraries/` directory, right-click on the new `libs` folder in Android Studio and select paste.
 
     Using the Android Studio project view, copy the following jar libraries from the SDK installation folders and paste it into the libs folder in Android Studio.  
+[DONE]
 [ACCORDION-END] 
 
 
@@ -130,7 +134,8 @@ The procedure shown in this tutorial can be used for any of the Android activity
 17. You can check the libraries were added in the `build.gradle` file located in the app module.
 
     ![Confirm dependencies added](mg6-3-17.png)
-[ACCORDION-END]
+[DONE]
+[ACCORDION-END] 
 
 ## Next Steps
  - [Compile and run a native Android app on SAP HANA Cloud Platform](http://go.sap.com/developer/tutorials/hcpdo-run-native-android-app.html)
