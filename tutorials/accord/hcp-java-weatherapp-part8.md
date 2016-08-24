@@ -91,7 +91,9 @@ For this part of the series, you will consume a RESTful weather service that ret
 6. Save your changes and deploy/publish the application again. After successful authenticating yourself, navigate to the following URL: <http://localhost:8080/weatherapp/api/v1/weather?id=2158177>
 
     ![Testing the new weather destination](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hcp-java-weatherapp-part8/e2e_08-6.png)
-[ACCORDION-END]
+
+[DONE]
+[ACCORDION-END] 
 
 [ACCORDION-BEGIN [ワークショップ](#ワークショップ)]
 7. One more thing: it would actually be nice to be able to traverse the path and query for weather information in a more RESTful manner via a URL pattern like: `/api/v1/cities/{id}/weather`. Let’s add a respective method to the `FavoriteCityService` class:
@@ -123,7 +125,10 @@ For this part of the series, you will consume a RESTful weather service that ret
     - Choose OK
 
     ![Modifying launch configuration when running behind a firewall](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hcp-java-weatherapp-part8/e2e_08-Note.png)
-[ACCORDION-END]
+
+[DONE]
+[ACCORDION-END] 
+
 
 ## Next Steps
  - [End-to-End Weather App Scenario Part 9](http://go.sap.com/developer/tutorials/hcp-java-weatherapp-part9.html)
