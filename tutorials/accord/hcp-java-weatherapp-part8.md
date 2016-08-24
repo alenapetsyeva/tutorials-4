@@ -24,6 +24,7 @@ For this part of the series, you will consume a RESTful weather service that ret
 **10 min**
 
 ---
+
 [ACCORDION-BEGIN [STEP 1](#thestep)]
 
 1. Once you have your APPID, create a new service class with the following properties:
