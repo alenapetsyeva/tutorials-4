@@ -32,6 +32,9 @@ For this part of the series, you will consume a RESTful weather service that ret
     - **Classname:** `WeatherService`
 
     ![Creating a new Java class](https://raw.githubusercontent.com/SAPDocuments/Tutorials/master/tutorials/hcp-java-weatherapp-part8/e2e_08-1.png)
+
+[DONE] 
+
 [ACCORDION-END]  
 
 [ACCORDION-BEGIN [juyujytfu](#theuydyujdtep)]
