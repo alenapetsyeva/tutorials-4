@@ -29,6 +29,8 @@ You can use:
 It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
 
 You can use ~~strikethrough~~ font
+
+[DONE]
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2](#2long)]
