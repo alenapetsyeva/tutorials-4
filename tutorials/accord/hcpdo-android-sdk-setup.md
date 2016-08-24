@@ -38,8 +38,9 @@ The procedure shown in this tutorial can be used for any of the Android activity
 [ACCORDION-BEGIN [STEP 2]()]
 2. Right click on `app` and select **New > Module** from the context menu.
 
+[DONE]
+[ACCORDION-END] 
 
-[ACCORDION-END]    
     
 [ACCORDION-BEGIN [STEP 3](STEP 3)]  
 3. Select Import **.JAR/.AAR Package** and click **Next**.
