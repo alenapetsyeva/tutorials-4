@@ -646,65 +646,11 @@ and
 
 [DONE]
 [ACCORDION-END] 
+ 
+ The recommended process flow starts with the change by a developer. This change is targeted to the main line in the source code management system. As outlined already in the CI/CD Practices part, it is highly recommended to implement a voter build including automatic tests as a gate keeper. This helps you to discover issues before they reach the main line.
 
-missing begin
-***Tables:***
+When the change has passed the voter build and tests, it is merged into the main line. As a precondition for a merge, applying a 4-eyes principle by doing code reviews is a common practice. Gerrit for, example collects, feedback of human code reviewers together with voter build and test results in one common place as a prerequisite for the merge.
 
-  **Example:** 
+As a next step after the merge, the CI build is triggered automatically. It builds the change and thus checks the build integrity of the main line. The build is self-testing, that is, it contains automatic tests. With this step the Continuous Integration (CI) pipeline has been passed. The change has been integrated into the main line successfully.
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-and
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-missing end
-
-
-missing begin
-***Tables:***
-
-  **Example:** 
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-[ACCORDION-END]
-and
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-[ACCORDION-END] 
-
-[ACCORDION-BEGIN [STEP 1](#the 12th step)]
-***Tables:***
-
-  **Example:** 
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-and
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-missing end
+When running a Continuous Delivery scenario, the requirements are much higher. The single change does not only have to be successfully integrated into the main line. After the qualification of every single change the product must still have a quality such that it could be released and deployed to production. To reach this, the change has to be deployed to a test system that by any means should correspond to the productive runtime system. Automation of the tests executed there should be done as far as possible, but also manual test steps might be executed. However, the deployment to the test system absolutely should be automated.
