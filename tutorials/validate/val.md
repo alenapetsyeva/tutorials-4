@@ -8,4 +8,22 @@ tags: [tutorial:product/hana_studio]
 
 [VALIDATE_1]
 
+[VALIDATE_2]
+
+[VALIDATE_3]
+
+[VALIDATE_4]
+
+[VALIDATE_5]
+
+[VALIDATE_6]
+
+[VALIDATE_7]
+
+[VALIDATE_8]
+
+[VALIDATE_9]
+
+[VALIDATE_10]
+
 [ACCORDION-END] 
