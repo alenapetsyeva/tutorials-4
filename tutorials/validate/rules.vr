@@ -98,3 +98,26 @@ Marina's age?
 se c ret
 [VALIDATE_9]
 
+
+[VALIDATE_10]
+###Rule
+regex-begins-with
+
+###Question
+Marina's age?
+
+###Match
+se c ret
+[VALIDATE_10]
+
+
+[VALIDATE_11]
+###Rule
+regex-begins-with
+
+###Question
+Marina's age?
+
+###Match
+se c ret
+[VALIDATE_11]
