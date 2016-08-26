@@ -29,3 +29,11 @@ tags: [tutorial:product/hana_studio]
 [VALIDATE_11]
 
 [ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 1](#the sпрпр lectitur. Adl nec. Eu p pro disceecond step)]
+
+[VALIDATE_10]
+
+[VALIDATE_11]
+
+[ACCORDION-END] 
