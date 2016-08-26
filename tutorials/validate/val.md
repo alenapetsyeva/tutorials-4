@@ -39,7 +39,16 @@ A
 
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 4](#1###regex-begins-with)]
+[ACCORDION-BEGIN [STEP 4](#1###regex-with-id-exact-match)]
+
+###Rule
+regex-with-id-exact-match
+
+###Question
+Enter URL to your application //[id] will be changed to uid
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 [VALIDATE_10]
 
