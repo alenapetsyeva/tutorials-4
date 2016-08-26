@@ -50,7 +50,7 @@ Enter URL to your application //[id] will be changed to uid
 ###Match
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
-[VALIDATE_10]
+[VALIDATE_11]
 
 [ACCORDION-END] 
 
