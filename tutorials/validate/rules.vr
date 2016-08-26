@@ -8,3 +8,93 @@ Marina's age?
 ###Match
 secret
 [VALIDATE_1]
+
+[VALIDATE_2]
+###Rule
+exact-match
+
+###Question
+Marina's age?
+
+###Match
+SEcret
+[VALIDATE_2]
+
+[VALIDATE_3]
+###Rule
+exact-match
+
+###Question
+Marina's age?
+
+###Match
+s e c ret
+[VALIDATE_3]
+
+[VALIDATE_4]
+###Rule
+regex-substring
+
+###Question
+Marina's age?
+
+###Match
+se
+cret
+[VALIDATE_4]
+
+[VALIDATE_5]
+###Rule
+regex-substring
+
+###Question
+Marina's age?
+
+###Match
+secrET
+[VALIDATE_5]
+
+[VALIDATE_6]
+###Rule
+regex-substring
+
+###Question
+Marina's age?
+
+###Match
+sec ret
+[VALIDATE_6]
+
+[VALIDATE_7]
+###Rule
+regex-begins-with
+
+###Question
+Enter Marina's surname?
+
+###Match
+Amosova
+[VALIDATE_7]
+
+[VALIDATE_8]
+###Rule
+regex-begins-with
+
+###Question
+Marina's age?
+
+###Match
+SEcret
+[VALIDATE_8]
+
+[VALIDATE_9]
+###Rule
+regex-begins-with
+
+###Question
+Marina's age?
+
+###Match
+se c ret
+[VALIDATE_9]
+
