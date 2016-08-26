@@ -26,4 +26,6 @@ tags: [tutorial:product/hana_studio]
 
 [VALIDATE_10]
 
+[VALIDATE_11]
+
 [ACCORDION-END] 
