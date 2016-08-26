@@ -113,11 +113,11 @@ se c ret
 
 [VALIDATE_11]
 ###Rule
-regex-begins-with
+regex-with-id-exact-match
 
 ###Question
-Marina?
+Enter URL to your application //[id] will be changed to uid
 
 ###Match
-se c ret
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 [VALIDATE_11]
