@@ -5,6 +5,7 @@ exact-match
 ###Question
 Marina's age?
 
+
 ###Match
 secret
 [VALIDATE_1]
@@ -71,9 +72,12 @@ regex-begins-with
 
 ###Question
 Enter Marina's surname?
+A. Amosova
+B. Mamosova
+C. GFkjdf
 
 ###Match
-Amosova
+A
 [VALIDATE_7]
 
 [VALIDATE_8]
