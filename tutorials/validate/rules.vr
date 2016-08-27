@@ -82,13 +82,13 @@ A
 
 [VALIDATE_8]
 ###Rule
-regex-begins-with
+regex-with-id-exact-match
 
 ###Question
-Marina's age?
+Enter URL to your application //[id] will be changed to uid
 
 ###Match
-SEcret
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 [VALIDATE_8]
 
 [VALIDATE_9]
