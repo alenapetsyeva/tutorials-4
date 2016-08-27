@@ -1,6 +1,6 @@
 ---
 title: validate
-description: validate
+description: validated
 tags: [tutorial:product/hana_studio]
 ---
 
