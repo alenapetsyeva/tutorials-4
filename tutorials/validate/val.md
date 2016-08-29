@@ -6,10 +6,9 @@ tags: [tutorial:product/hana_studio]
 
 [ACCORDION-BEGIN [STEP 1](#1Rule exact-match)]
 
-###Question
+### Question
 Marina's age?
-
-###Match
+### Match
 secret
 
 [VALIDATE_1]
