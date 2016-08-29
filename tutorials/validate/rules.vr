@@ -103,13 +103,13 @@ se c ret
 
 [VALIDATE_10]
 ###Rule
-regex-begins-with
+regex-with-id-exact-match
 
 ###Question
-age?
+Enter your  //[id] 
 
 ###Match
-se c ret
+user [id]
 [VALIDATE_10]
 
 
