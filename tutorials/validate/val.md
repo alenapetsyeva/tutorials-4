@@ -14,6 +14,8 @@ secret
 
 [VALIDATE_1]
 
+>### Note
+>This is a note. 
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2](#1###Ruleregex-substring)]
