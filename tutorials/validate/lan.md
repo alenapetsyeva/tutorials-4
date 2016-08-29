@@ -17,7 +17,7 @@ secret
 >This is a note.  ноут
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 2](#1##Ruleregex-substring)]
+[ACCORDION-BEGIN [STEP 2](#1#kitai#Ruleregex-substring)]
 
 ###Question
 Marina's age?  前年夏天，我花了六十块钱买了辆二手自行车。有个星期天休息
@@ -31,7 +31,7 @@ secret
 
 [ACCORDION-BEGIN [STEP 3](#nemec ###regex-begins-with)]
 ###Question
-Enter Marina's surname? Der gro?te Planet des Sonnensystems ist der Jupiter, der kleinste Planet ist der Merkur. Unsere Galaxie hei?t die Milchstra?e
+Enter Marina's surname? Der größte Planet des Sonnensystems ist der Jupiter, der kleinste Planet ist der Merkur. Unsere Galaxie heißt die Milchstraße
 
 ###Match
 A
