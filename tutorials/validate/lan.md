@@ -23,9 +23,9 @@ secret
 Marina's age?  前年夏天，我花了六十块钱买了辆二手自行车。有个星期天休息
 
 ###Match
-secret
+六十块钱
 
-[VALIDATE_4]
+[VALIDATE_5]
 
 [ACCORDION-END] 
 
