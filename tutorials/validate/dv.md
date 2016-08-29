@@ -35,7 +35,7 @@ You can use ~~strikethrough~~ font
 [DONE]
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 3](Rule  regex-substring)]
+[ACCORDION-BEGIN [STEP 3](Rule hg regex-substring)]
 
 ### Rule
 regex-substring
