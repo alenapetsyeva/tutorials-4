@@ -7,20 +7,20 @@ tags: [tutorial:product/hana_studio]
 [ACCORDION-BEGIN [STEP 1](#1Russian Rule exact-match)]
 
 ### Question
-Marina's age? �������
+Marina's age? сколько
 ### Match
 secret
 
 [VALIDATE_1]
 
 >### Note
->This is a note.  ����
+>This is a note.  ноут
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2](#1##Ruleregex-substring)]
 
 ###Question
-Marina's age? 
+Marina's age?  前年夏天，我花了六十块钱买了辆二手自行车。有个星期天休息
 
 ###Match
 secret
@@ -43,7 +43,7 @@ A
 [ACCORDION-BEGIN [STEP 4](#1#spec simvol##regex-with-id-exact-match)]
 
 ###Rule
-regex-with-id-exact-match !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\�
+regex-with-id-exact-match !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\€
 
 
 ###Question
@@ -56,7 +56,7 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 5](#the sοποπ lectitur. Adl nec. Eu p pro disceecond step)]
+[ACCORDION-BEGIN [STEP 5](#the sОїПЂОїПЂ lectitur. Adl nec. Eu p pro disceecond step)]
 
 [VALIDATE_10]
 
