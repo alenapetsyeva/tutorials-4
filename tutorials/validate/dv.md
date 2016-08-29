@@ -113,28 +113,16 @@ You can create nested lists:
 regex-with-id-exact-match
 
 ###Question
-Enter URL to your application //[id] will be changed to uid
+Enter your  //[id] 
 
 ###Match
-https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
-
-[VALIDATE_11]
-
-[ACCORDION-END] 
-
-[ACCORDION-BEGIN [STEP 8](#the 8)]
-### Rule
-regex-begins-with
-
-### Question
-age?
-
-### Match
-se c ret
+user [id]
 
 [VALIDATE_10]
 
 [ACCORDION-END] 
+
+
 
 
 
