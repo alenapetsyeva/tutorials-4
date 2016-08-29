@@ -1,10 +1,12 @@
 [VALIDATE_1]
 ###Rule
 exact-match
+
 ###Question
 Marina's age?
+
 ###Match
-secret
+секрет на 100 лет 
 [VALIDATE_1]
 
 [VALIDATE_2]
