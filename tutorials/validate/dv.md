@@ -4,7 +4,7 @@ description: validated
 tags: [tutorial:product/hana_studio]
 ---
 
-[ACCORDION-BEGIN [STEP 1](#1Rule exact-match)]
+[ACCORDION-BEGIN [STEP 1](Rule exact-match)]
 
 ### Rule
 exact-match
@@ -21,7 +21,7 @@ Marina's age?
 >This is a note. 
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 2](#1###Ruleregex-substring)]
+[ACCORDION-BEGIN [STEP 2](text ex)]
 
 You can use:
 
@@ -35,7 +35,7 @@ You can use ~~strikethrough~~ font
 [DONE]
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 3](#1###Ruleregex-substring)]
+[ACCORDION-BEGIN [STEP 3](Rule  regex-substring)]
 
 ### Rule
 regex-substring
@@ -50,7 +50,7 @@ secret
 
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 4](#the 3th step)]
+[ACCORDION-BEGIN [STEP 4](#the 4th step)]
 ***Code blocks:***
 
 ```markup
@@ -65,7 +65,7 @@ secret
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 5](#1###regex-begins-with)]
+[ACCORDION-BEGIN [STEP 5](regex-begins-with)]
 ### Rule
 regex-begins-with
 
@@ -107,7 +107,7 @@ You can create nested lists:
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 7](#1###regex-with-id-exact-match)]
+[ACCORDION-BEGIN [STEP 7](#regex-with-id-exact-match)]
 
 ###Rule
 regex-with-id-exact-match
@@ -122,7 +122,7 @@ https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 8](#the sпрпр lectitur. Adl nec. Eu p pro disceecond step)]
+[ACCORDION-BEGIN [STEP 8](#the 8)]
 ### Rule
 regex-begins-with
 
