@@ -15,6 +15,27 @@ secret
 
 >### Note
 >This is a note. 
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 1.1](#1Rule exact-match)]
+
+### Question
+Marina's age?
+### Match
+secret
+
+[VALIDATE_1]
+
+>### Caution
+>iikjhiojhioji
+
+&nbsp;
+
+>### Warning
+>jhkjhkjhkjhkj
+
+&nbsp;
+
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2](#1###Ruleregex-substring)]
