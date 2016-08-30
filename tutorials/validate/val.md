@@ -38,6 +38,27 @@ A
 
 [VALIDATE_7]
 
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 4](#1###regex-with-id-exact-match)]
@@ -49,19 +70,18 @@ regex-with-id-exact-match
 Enter URL to your application //[id] will be changed to uid
 
 ###Match
-https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
-[VALIDATE_11]
+###Question
+Enter your  //[id] 
 
-[ACCORDION-END] 
-
-[ACCORDION-BEGIN [STEP 5](#the sпрпр lectitur. Adl nec. Eu p pro disceecond step)]
+###Match
+user [id]
 
 [VALIDATE_10]
 
-[VALIDATE_11]
-
 [ACCORDION-END] 
+
+
 
 
 
