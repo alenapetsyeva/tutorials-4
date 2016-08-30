@@ -1,7 +1,7 @@
 ---
 title: validate
 description: validated
-tags: [tutorial:product/hana_studio]
+tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate]
 ---
 
 [ACCORDION-BEGIN [STEP 1](#1Rule exact-match)]
