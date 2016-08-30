@@ -9,7 +9,7 @@ tags: [tutorial:product/hana_studio]
 ### Question
 Marina's age?
 ### Match
-secret
+секрет на 100 лет 
 
 [VALIDATE_1]
 
