@@ -1,7 +1,7 @@
 ---
 title: accord
 description: accord
-tags: [tutorial:product/hana_studio]
+tags: [tutorial:product/sapHana]
 ---
 000000
 123456
