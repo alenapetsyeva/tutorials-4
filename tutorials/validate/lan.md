@@ -1,7 +1,7 @@
 ---
 title: different language
 description: different language
-tags: [tutorial:product/hana_studio]
+tags: [tutorial:product/mobile]
 ---
 
 [ACCORDION-BEGIN [STEP 1](#1Russian Rule exact-match)]
