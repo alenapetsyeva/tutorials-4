@@ -31,7 +31,7 @@ We will start by setting up the CI process for a pure Java project without any d
 - Running Jenkins Master and a Jenkins build slave 
 - Running Nexus with at least one snapshot repository
 
-![Component Setup](generic-project-1.png)
+![Component Setup](exif.jpg)
 
 Eclipse as development environment is commonly used but not absolutely needed and not regarded as prerequisite in this guide.
 
