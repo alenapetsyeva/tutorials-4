@@ -1,0 +1,125 @@
+[VALIDATE_1]
+###Rule
+http-status-check
+
+###Question
+https://kb.epam.com?
+
+###Match
+200
+[VALIDATE_1]
+
+[VALIDATE_2]
+###Rule
+exact-match
+
+###Question
+Marina's age?
+
+###Match
+SEcret
+[VALIDATE_2]
+
+[VALIDATE_3]
+###Rule
+exact-match
+
+###Question
+Marina's age?
+
+###Match
+s e c ret
+[VALIDATE_3]
+
+[VALIDATE_4]
+###Rule
+regex-substring
+
+###Question
+Marina's age?
+
+###Match
+secret
+[VALIDATE_4]
+
+[VALIDATE_5]
+###Rule
+regex-substring
+
+###Question
+Marina's age?
+
+###Match
+六十块钱
+[VALIDATE_5]
+
+[VALIDATE_6]
+###Rule
+regex-substring
+
+###Question
+Marina's age?
+
+###Match
+sec ret
+[VALIDATE_6]
+
+[VALIDATE_7]
+###Rule
+regex-begins-with
+
+###Question
+Enter Marina's surname?
+A. Amosova
+B. Mamosova
+C. GFkjdf
+
+###Match
+A
+[VALIDATE_7]
+
+[VALIDATE_8]
+###Rule
+regex-with-id-exact-match
+
+###Question
+Enter URL to your application //[id] will be changed to uid
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATE_8]
+
+[VALIDATE_9]
+###Rule
+regex-begins-with
+
+###Question
+Marina's age?
+
+###Match
+se c ret
+[VALIDATE_9]
+
+
+[VALIDATE_10]
+###Rule
+regex-with-id-exact-match
+
+###Question
+Enter your  //[id] 
+
+###Match
+user [id]
+[VALIDATE_10]
+
+
+[VALIDATE_11]
+###Rule
+regex-with-id-exact-match
+
+###Question
+Enter URL to your application //[id] will be changed to uid
+
+###Match
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+[VALIDATE_11]
