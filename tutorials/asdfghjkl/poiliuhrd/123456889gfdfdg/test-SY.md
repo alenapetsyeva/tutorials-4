@@ -1,6 +1,6 @@
 ---
 
-title: Casdfghjkl
+title: test-SY
 description: Part 3.4: Configuring the CI Component Landscape.
 tags: [  tutorial>intermediate, tutorial:type/project ]
 
