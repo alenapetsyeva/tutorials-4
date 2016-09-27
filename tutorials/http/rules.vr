@@ -67,8 +67,6 @@ with 200, 404
 
 [VALIDATE_5]
 
-
-
 [VALIDATE_6]
 ###Rule
 regex-substring
