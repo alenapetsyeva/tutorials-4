@@ -49,6 +49,11 @@ with 301
 
 [VALIDATE_4]
 
+[VALIDATE_8]
+###Question
+with 204
+[VALIDATE_8]
+
 ***Lists***
 
   **Example:** 
@@ -79,6 +84,12 @@ You can create nested lists:
 with 200, 404
 
 [VALIDATE_5]
+
+###Question
+with 200, 404
+
+[VALIDATE_5]
+
 
 [ACCORDION-END] 
 
