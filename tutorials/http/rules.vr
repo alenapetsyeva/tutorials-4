@@ -43,6 +43,18 @@ with 301
 
 [VALIDATE_4]
 
+[VALIDATE_8]
+###Rule
+http-status-check
+
+###Question
+with 204
+
+###Match
+204
+
+[VALIDATE_8]
+
 [VALIDATE_5]
 ###Rule
 http-status-check
@@ -54,6 +66,8 @@ with 200, 404
 200, 404
 
 [VALIDATE_5]
+
+
 
 [VALIDATE_6]
 ###Rule
