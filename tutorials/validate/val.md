@@ -7,7 +7,7 @@ tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>inter
 [ACCORDION-BEGIN [STEP 1](#1Rule exact-match)]
 
 ### Question
-url
+url https://kb.epam.com?
 ### Match
 200
 
