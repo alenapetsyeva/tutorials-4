@@ -32,6 +32,8 @@ with 200
 
 &nbsp;
 
+[VALIDATE_8]
+
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2](#1###Ruling)]
