@@ -43,3 +43,14 @@ with 301
 
 [VALIDATE_4]
 
+[VALIDATE_5]
+###Rule
+http-status-check
+
+###Question
+with 200, 404
+
+###Match
+200, 404
+
+[VALIDATE_5]
