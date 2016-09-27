@@ -54,3 +54,40 @@ with 200, 404
 200, 404
 
 [VALIDATE_5]
+
+[VALIDATE_6]
+###Rule
+regex-substring
+
+###Question
+Marina's age?
+
+###Match
+secret
+
+[VALIDATE_6]
+
+[VALIDATE_7]
+###Rule
+regex-begins-with
+
+###Question
+Enter Marina's surname?
+A. Amosova
+B. Mamosova
+C. GFkjdf
+
+###Match
+A
+[VALIDATE_7]
+
+[VALIDATE_10]
+###Rule
+regex-with-id-exact-match
+
+###Question
+Enter your  //[id] 
+
+###Match
+user [id]
+[VALIDATE_10]
