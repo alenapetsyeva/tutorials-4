@@ -85,11 +85,6 @@ with 200, 404
 
 [VALIDATE_5]
 
-###Question
-with 200, 404
-
-[VALIDATE_5]
-
 
 [ACCORDION-END] 
 
