@@ -6,7 +6,7 @@ http-status-check
 https://kb.epam.com?
 
 ###Match
-404
+200
 [VALIDATE_1]
 
 [VALIDATE_2]
