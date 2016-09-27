@@ -7,9 +7,9 @@ tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>inter
 [ACCORDION-BEGIN [STEP 1](#1Rule exact-match)]
 
 ### Question
-Marina's age?
+url
 ### Match
-секрет на 100 лет 
+200
 
 [VALIDATE_1]
 
