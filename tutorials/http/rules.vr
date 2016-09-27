@@ -1,0 +1,45 @@
+[VALIDATE_1]
+###Rule
+http-status-check
+
+###Question
+with 404
+
+###Match
+404
+[VALIDATE_1]
+
+[VALIDATE_2]
+###Rule
+http-status-check
+
+###Question
+with 200
+
+###Match
+200
+[VALIDATE_2]
+
+[VALIDATE_3]
+###Rule
+http-status-check
+
+###Question
+with 403
+
+###Match
+403
+[VALIDATE_3]
+
+[VALIDATE_4]
+###Rule
+http-status-check
+
+###Question
+with 301
+
+###Match
+301 
+
+[VALIDATE_4]
+
