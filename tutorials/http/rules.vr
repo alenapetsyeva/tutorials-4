@@ -36,7 +36,7 @@ with 403
 http-status-check
 
 ###Question
-with 301
+with 301 или 401
 
 ###Match
 301 
