@@ -4,10 +4,7 @@ description: other
 tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate]
 ---
 
-[ACCORDION-BEGIN [STEP 1](#1Rul)]
-
-###Question
-with 404
+[ACCORDION-BEGIN [STEP 1](#1Rul 404)]
 
 [VALIDATE_1]
 
@@ -15,10 +12,7 @@ with 404
 >This is a note. 
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 1.1](#1Rule)]
-
-###Question
-with 200
+[ACCORDION-BEGIN [STEP 1.1](#1Rule 200 and 204)]
 
 [VALIDATE_2]
 
@@ -36,18 +30,26 @@ with 200
 
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 2](#1###Ruling)]
-
-###Question
-with 403
+[ACCORDION-BEGIN [STEP 2](#1###Ruling 403)] 
 
 [VALIDATE_3]
 
 [ACCORDION-END] 
 
-[ACCORDION-BEGIN [STEP 3](#1###regth)]
-###Question
-with 301
+[ACCORDION-BEGIN [STEP 2](#1###Ruling 401)] 
+
+[VALIDATE_11]
+
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#1###Ruling 500)] 
+
+[VALIDATE_12]
+
+[ACCORDION-END] 
+
+
+[ACCORDION-BEGIN [STEP 3](#1###regth 301 and 204)]
 
 [VALIDATE_4]
 
@@ -76,14 +78,12 @@ You can create nested lists:
 
 [ACCORDION-END] 
 
-
-[ACCORDION-BEGIN [STEP 2](#1###Ruling)]
+[ACCORDION-BEGIN [STEP 2](#1###Ruling 200, 404)]
 
 ###Question
 with 200, 404
 
 [VALIDATE_5]
-
 
 [ACCORDION-END] 
 
