@@ -48,7 +48,6 @@ tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>inter
 
 [ACCORDION-END] 
 
-
 [ACCORDION-BEGIN [STEP 3](#1###regth 301 and 204)]
 
 [VALIDATE_4]
@@ -79,9 +78,6 @@ You can create nested lists:
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2](#1###Ruling 200, 404)]
-
-###Question
-with 200, 404
 
 [VALIDATE_5]
 
