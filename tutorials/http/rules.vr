@@ -39,7 +39,7 @@ http-status-check
 with 301 или 401
 
 ###Match
-301 
+301, 401 
 
 [VALIDATE_4]
 
