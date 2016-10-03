@@ -55,6 +55,28 @@ with 204
 
 [VALIDATE_8]
 
+[VALIDATE_11]
+###Rule
+http-status-check
+
+###Question
+with 401
+
+###Match
+401
+[VALIDATE_11]
+
+[VALIDATE_12]
+###Rule
+http-status-check
+
+###Question
+with 401
+
+###Match
+401
+[VALIDATE_12]
+
 [VALIDATE_5]
 ###Rule
 http-status-check
