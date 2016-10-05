@@ -86,7 +86,7 @@ regex-with-id-exact-match
 Enter URL to your application //[id] will be changed to uid
 
 ###Match
-https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+https://кодjam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 [VALIDATE_8]
 
 [VALIDATE_9]
