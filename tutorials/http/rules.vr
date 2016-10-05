@@ -9,6 +9,21 @@ with 404
 404
 [VALIDATE_1]
 
+[VALIDATE_13]
+###Rule
+http-status-check
+
+###Question
+with 503
+
+###Match
+503
+[VALIDATE_1]
+
+
+
+
+
 [VALIDATE_2]
 ###Rule
 http-status-check
