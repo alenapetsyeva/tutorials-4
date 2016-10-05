@@ -50,7 +50,7 @@ regex-with-id-exact-match !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{
 Enter URL to your application //[id] will be changed to uid
 
 ###Match
-https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+https://кодjam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
 
 [VALIDATE_11]
 
