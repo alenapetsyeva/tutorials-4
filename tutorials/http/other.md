@@ -1,7 +1,7 @@
 ---
 title: other
 description: other
-tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate]
+tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate, tutorial>bigData]
 ---
 
 [ACCORDION-BEGIN [STEP 1](#1Rul 404)]
