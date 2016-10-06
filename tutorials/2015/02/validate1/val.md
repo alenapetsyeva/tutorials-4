@@ -8,6 +8,7 @@ tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>inter
 
 [VALIDATE_1]
 
+fdzgfdgfhygfujtfyiuyt
 >### Note
 >This is a note. 
 [ACCORDION-END]
