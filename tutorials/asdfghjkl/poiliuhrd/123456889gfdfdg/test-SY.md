@@ -75,17 +75,17 @@ Jenkins will establish an ssh connection to Gerrit to listen to the event stream
     
 5. Open a browser window to Jenkins and go to **Manage Jenkins > Gerrit Trigger > Add new Server**.
 
->### Note
-
->This is a note. 
-
-&nbsp;
-
->### hdsgfdhg
-
->Thishliugt7uy is a note. 
-
-&nbsp;
+    >### Note
+    
+    >This is a note. 
+    
+    &nbsp;
+    
+    >### hdsgfdhg
+    
+    >Thishliugt7uy is a note. 
+    
+    &nbsp;
 
 6. Enter the following data:
   
