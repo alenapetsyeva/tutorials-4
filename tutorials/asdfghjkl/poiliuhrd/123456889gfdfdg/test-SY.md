@@ -119,13 +119,13 @@ For some scenarios, you need an upload of the build artifacts to Nexus. The uplo
 
 >### NOTE
 
->hdtfutytfuyttr
+> hdtfutytfuyttr
 
 the `settings.xml` file just
 
 >### dfgdfgdrsfgws
 
->hdtfutytfuyttr
+> hdtfutytfuyttr
 
 
 
