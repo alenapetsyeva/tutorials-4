@@ -74,6 +74,7 @@ Jenkins will establish an ssh connection to Gerrit to listen to the event stream
     ![Project Permissions](landscape-2.png)
     
 5. Open a browser window to Jenkins and go to **Manage Jenkins > Gerrit Trigger > Add new Server**.
+
 >### Note
 
 >This is a note. 
