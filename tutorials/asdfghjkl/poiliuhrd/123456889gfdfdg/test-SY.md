@@ -117,6 +117,9 @@ For some scenarios, you need an upload of the build artifacts to Nexus. The uplo
 
 2. In the home directory of `jenkins`, create a new folder `.m2` and in there, create a copy of the file `config/settings.xml` from the maven installation directory.
 
+> ### NOTE
+hdtfutytfuyttr
+
 3. Open the `settings.xml` file just copied and change the following parts according to your network setup:
 
     - In the `<proxies>` section, enter the right data according to your network configuration.
