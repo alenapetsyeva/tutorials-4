@@ -121,12 +121,17 @@ For some scenarios, you need an upload of the build artifacts to Nexus. The uplo
 hdtfutytfuyttr
 
 
+the `settings.xml` file just
+
+
+
+
 >### dfgdfgdrsfgws
 hdtfutytfuyttr
 
 
 
-3. Open the `settings.xml` file just copied and change the following parts according to your network setup:
+3. Open  copied and change the following parts according to your network setup:
 
     - In the `<proxies>` section, enter the right data according to your network configuration.
    
