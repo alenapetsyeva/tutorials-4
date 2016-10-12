@@ -19,7 +19,7 @@ tags: [  tutorial>intermediate, tutorial:type/project ]
 
 After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
 
-[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2010/03/286a7323-0a7c-0010-82c7-eda71af511fa.mp4)]
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
 
 ### Gerrit Parent Project
 
@@ -74,7 +74,7 @@ Jenkins will establish an ssh connection to Gerrit to listen to the event stream
     
 5. Open a browser window to Jenkins and go to **Manage Jenkins > Gerrit Trigger > Add new Server**.
     
-    [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2010/03/286a7323-0a7c-0010-82c7-eda71af511fa.mp4)] 
+    [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)] 
     
 6. Enter the following data:
   
