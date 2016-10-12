@@ -74,7 +74,7 @@ Jenkins will establish an ssh connection to Gerrit to listen to the event stream
     
 5. Open a browser window to Jenkins and go to **Manage Jenkins > Gerrit Trigger > Add new Server**.
     
-    [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)] 
+    [EMBEDDED-VIDEO [](http://dx-test.mo.sap.corp/assetdetail/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.html)] 
     
 6. Enter the following data:
   
