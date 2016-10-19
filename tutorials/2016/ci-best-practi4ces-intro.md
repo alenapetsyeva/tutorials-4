@@ -31,6 +31,9 @@ tags: [  tutorial>intermediate, tutorial:type/project ]
 
 > Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
 
+>### NOTE
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
 А вот [пример][1] [нескольких][2] [ссылок][id] с разметкой как у сносок. Прокатит и [короткая запись][] без указания id.
 
 [1]: http://example.com/ "Optional Title Here"
