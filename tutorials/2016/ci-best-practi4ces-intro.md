@@ -30,6 +30,8 @@ tags: [  tutorial>intermediate, tutorial:type/project ]
 ### Ссылки
 
 > Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+&nbsp;
+
 
 >### NOTE
 >If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
