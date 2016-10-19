@@ -29,7 +29,7 @@ tags: [  tutorial>intermediate, tutorial:type/project ]
 
 ### Ссылки
 
-Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
 
 А вот [пример][1] [нескольких][2] [ссылок][id] с разметкой как у сносок. Прокатит и [короткая запись][] без указания id.
 
