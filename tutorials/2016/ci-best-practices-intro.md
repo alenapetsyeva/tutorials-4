@@ -27,6 +27,19 @@ tags: [  tutorial>intermediate, tutorial:type/project ]
 ---
 
 
+### Ссылки
+
+Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+А вот [пример][1] [нескольких][2] [ссылок][id] с разметкой как у сносок. Прокатит и [короткая запись][] без указания id.
+
+[1]: http://example.com/ "Optional Title Here"
+[2]: http://example.com/some
+[id]: http://example.com/links (Optional Title Here)
+[короткая запись]: http://example.com/short
+
+Вынос длинных урлов из предложения способствует сохранению читабельности исходника. Сноски можно располагать в любом месте документа.
+
 What you need to be successful in building business applications on SAP's cloud platform or using SAP on premise technologies is an efficient software development process.
 
 In this guide we will discuss some basic principles for software development that are derived from the process definitions for Continuous Integration (CI) and Continuous Delivery (CD). We will then break the principles down into the best practices that will support you in setting up an efficient development process for your cloud application development on SAP HANA Cloud Platform (SAP HCP).
