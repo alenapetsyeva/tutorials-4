@@ -52,7 +52,89 @@ You can create nested lists:
 * item1
     * one_one
     * two
-[ACCORDION-BEGIN [STEP 2](#step4)]
+    
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+  
+    
+    
+[ACCORDION-BEGIN [STEP 1]()]
+
+**Example: copy code** 
+ 
+```javascript
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+```
+
+**Example: list**
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+### Ссылки
+
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
 
 [DONE]
 [ACCORDION-END]
