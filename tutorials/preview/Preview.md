@@ -75,7 +75,12 @@ You can create nested lists:
 
 &nbsp;
   
-    
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item    
     
 [ACCORDION-BEGIN [STEP 1]()]
 
@@ -135,6 +140,13 @@ You can create nested lists:
 >If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
 
 &nbsp;
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 [DONE]
 [ACCORDION-END]
