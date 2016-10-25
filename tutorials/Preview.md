@@ -19,8 +19,8 @@ In the final part of this tutorial series you will learn how to deploy your Java
 
 ---
 
- **Example:** 
-  199 lines
+ **Example: copy code** 
+ 
 ```javascript
   20 line
   quit;
