@@ -22,7 +22,6 @@ In the final part of this tutorial series you will learn how to deploy your Java
  **Example: copy code** 
  
 ```javascript
-  20 line
   quit;
 function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
   function fancyAlert(arg) {
@@ -35,3 +34,26 @@ function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {f
 function fancyAlert(arg) {
   if(arg) {
 ```
+
+ **Example: list**
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+[ACCORDION-BEGIN [STEP 2](#step4)]
+
+[DONE]
+[ACCORDION-END]
+
