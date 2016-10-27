@@ -24,7 +24,7 @@ You can use ~~strikethrough~~ font
 [ACCORDION-END] 
 
 [ACCORDION-BEGIN [STEP 2](#the second step)]
-Mandamus adversarium intellegebat per ne, ex graece animal nec. Eu purto dicat nam. Duo quas lorem maluisset cu, elit equidem vis at. Simul quodsi ne eum, ne sit incorrupte complectitur. Ad pro discere corrumpit adipiscing, ex mei docendi efficiantur, eam epicurei reprehendunt ne.
+
 
 Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
 
