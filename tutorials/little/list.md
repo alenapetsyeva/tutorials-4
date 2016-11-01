@@ -24,3 +24,10 @@ You can create nested lists:
 * item1
     * one_one
     * two
+    
+![Part 1 OData Model Structure](images.jpg)
+
+
+
+
+![Part 1 OData Model Structure](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWGXo4U6CCvNItlDYFgEQz4d3T-YjLj13nqUZ-crpAr3qMPx-)
