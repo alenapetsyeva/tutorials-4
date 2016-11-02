@@ -16,7 +16,7 @@ tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>inter
 ---
 
 
-[ACCORDION-BEGIN [STEP 1](#the step)]
+[ACCORDION-BEGIN [STEP 1](#the sfgdxxxxxxxxxxxxxxxxfgdxxxxxxxxxxxxxxxxxxxxxxxxxhgdfhgdfhgdxfhgdxfgtep)]
 You can use:
 
 ***Text*** (including bold, italic, etc)
