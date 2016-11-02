@@ -1,0 +1,6073 @@
+---
+title: bigfile
+description: bigfile
+tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate]
+---
+
+## Prerequisites  
+
+  - [Source Code Versioning System](http://go.sap.com/developer/tutorials/ci-best-practices-scm.html)
+  - [Build Scheduler](http://go.sap.com/developer/tutorials/ci-best-practices-build.html)
+
+## Next Steps
+
+  - [Back to the Navigator](http://go.sap.com/developer/tutorials/ci-best-practices-intro.html)
+
+---
+
+
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+
+
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+ 
+ [DONE]
+[ACCORDION-END] 
+[ACCORDION-BEGIN [STEP 1](#the step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 2](#the second step)]
+
+
+Dolorem partiendo salutatus ne sea, eum quodsi molestie no. Sed ne error soluta. Dicit cotidieque interpretaris cum ea, mel dictas evertitur ut, usu at postulant appellantur. Meis nostrum nam eu, ne consul cotidieque sea, audiam dolorem temporibus est ea. Vel labitur epicuri ne. Id vix duis fabellas.
+
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.Laoreet deseruisse ut pro, ad cetero definiebas usu, at commodo senserit deterruisset mel. Ex graeco sanctus his, has no ullum adolescens, cu vix quando probatus vulputate. Albucius consequat mel eu, id maiestatis comprehensam eum, has civibus ullamcorper in. Erant feugait oporteat at his, te eam graecis constituto.
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 3](#the 3th step)]
+***Code blocks:***
+
+```markup
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 4](#the firsth step)]
+```markup
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>cloud-weatherapp</display-name>
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <display-name>HelloWorldServlet</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>
+        com.sap.hana.cloud.samples.weatherapp.web.HelloWorldServlet
+    </servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <login-config>
+    <auth-method>FORM</auth-method>
+    </login-config>
+    <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>Protected Area</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+        <!-- Role Everyone will not be assignable -->
+        <role-name>Everyone</role-name>
+    </auth-constraint>
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 5](#the 5 step)]
+You can use:
+
+***Text*** (including bold, italic, etc)
+
+  **Example:** 
+It's very easy to make
+
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
+You can use ~~strikethrough~~ font
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 6](#the 6 step)]
+***Headers***
+
+  **Example:** 
+## This is an h2 header 
+### This is an h3 header
+###### This is an h6 header
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [STEP 7](#the 7 step)]
+***Lists***
+
+  **Example:** 
+  
+Sometimes you want numbered lists:
+
+1. One
+2. Two 
+3. Three
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+You can create nested lists: 
+
+* item1
+    * one_one
+    * two
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](#the 8 step)]
+***Blockquotes***
+
+  **Example:** 
+In the words of Abraham Lincoln:
+> Pardon my French
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 9](#the 9 step)]
+***Links***
+
+  **Example:** 
+[Primer] [id]:
+[id]: http://tut.by
+
+<http://tut.by>
+
+<address@example.com>
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 10](#the 10 step)]
+***There are three different types of messages: Note, Caution and Warning.***
+
+>### Warning
+>jhkjhkjhkjhkj
+>>### Warning
+>>>### Warning
+>>>>### Warning
+>>>>This is a Warning. 
+
+&nbsp;
+
+>### Caution
+>iikjhiojhioji
+>>### Caution
+>>This is a Caution. 
+
+&nbsp;
+
+>### Note
+
+>This is a note. 
+
+&nbsp;
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [Image](#Image )]
+***Images*** (all images are stored on GitHub, URLs are rewritten to absolute)
+
+Format: `![Alt Text](url)`
+
+  **Example:** 
+![Image](https://octodex.github.com/images/yaktocat.png)
+![рпle](http://www.kinomania.ru/images/posters/154766.jpg)
+
+
+![Eпрple](http://bestfotoposter.ru/downloads/priroda/more/6000%D1%854285-96dpi-foto-oblaka-nad-morem.jpg)
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+![Exaрe](http://img0.joyreactor.cc/pics/post/full/%D0%BA%D0%BE%D1%82%D1%8D-%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-2629498.jpeg)
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN [Image ](jpg)]
+![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 11](#the 11th step)]
+```js
+ quit;
+ !@#$%^&*&*(*(()_++|"}?><>??*&^%#!~~~~@33123-090=|"]?>{}|\\
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  exit;
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 12](#the 12th step)]
+  **Example:** 
+```javascript
+quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  20 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  40 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  60 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  80 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  100 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  120 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  140 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  160 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+  180 line
+  quit;
+function fancyAlert(arg) { function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) {function fancyAlert(arg) { 
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+function fancyAlert(arg) {
+  if(arg) {199
+```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 13](#the 13 step)]
+***Task Lists*** (Please note, this requires empty line before task list):
+
+  **Example:** 
+  
+- [x] @mentions, #refs, [links](), **formatting**, and ~~tags~~ supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 14](#the 14th step)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
+| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
+| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [](# missing STEP)]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [missing #Step]()]
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+missing all in begin
+***Tables:***
+
+  **Example:** 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+and
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+[DONE]
+[ACCORDION-END] 
+
+[ACCORDION-BEGIN []()]
+After having installed and started the components that are involved in our CI process landscape, there are some more steps to configure to make them smoothly work together within a process pipeline.
+
+[EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2009/01/fc877223-0a7c-0010-82c7-eda71af511fa.mp4)]
+
+### Ссылки
+> Это встроенная [ссылка с title элементом](http://example.com/link "Я ссылка"). Это — [без title](http://example.com/link).
+
+&nbsp;
+
+
+>### Note
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+
+>### Warning
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+>### Caution
+>If you have skipped the tutorial [Extend the YaaS Storefront's Functionality](http://go.sap.com/developer/tutorials/yaas-extend-storefront-functionality-webservice.html), you can clone the Tips Micro Service with this command. `git clone https://github.com/SAP/yaas-getting-started-yaasbites.git`
+
+&nbsp;
+
+**Example:**
+
+![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
+![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
+ 
+ [DONE]
+[ACCORDION-END] 
