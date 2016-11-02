@@ -6069,7 +6069,7 @@ After having installed and started the components that are involved in our CI pr
 ![Exaрe](https://pbs.twimg.com/profile_images/554977925171122177/irNDJMJy.jpeg)
 ![Exaрe](https://upload.wikimedia.org/wikipedia/ru/b/ba/%D0%90%D0%BA%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D1%82.jpg)
  
- [DONE]
+[DONE]
 [ACCORDION-END] 
 
 
