@@ -4,6 +4,10 @@ description: bigfile
 tags: [products>sap-hana-cloud-platform, topic>cloud, topic>java, tutorial>intermediate]
 ---
 
+### Time to Complete
+**15 Min**.
+
+
 ## Prerequisites  
 
   - [Source Code Versioning System](http://go.sap.com/developer/tutorials/ci-best-practices-scm.html)
