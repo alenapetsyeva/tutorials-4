@@ -593,9 +593,9 @@ and
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
-| col 3 is     bfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  | some wordy text | $1600 |
-| col 2 is    fbddddddddddddddddddddddddddddddddddddddddddddddddddddd  | centered        |   $12 fbdddddddddddddddddddddddddddddd|
-| zebra stripes | are neat     fbdddddddddddddddddddddddddddddddddddddddddddddddddd   |    $1 |
+| col 3 is     bfddd dddddddd dddddddddd dddddd dddddddd dddddddd dddddddddddddddd dddddd  | some wordy text | $1600 |
+| col 2 is    fbddddd ddddddddddddddddd ddddddddddddd ddd ddddddddddddddd  | centered        |   $12 fbddddddddd ddddd dddddddddddd dddd|
+| zebra stripes | are neat     fbdddddd ddddddddd ddddddd dddddddd dddddddddddd dddddddd   |    $1 |
 
 [DONE]
 [ACCORDION-END]
