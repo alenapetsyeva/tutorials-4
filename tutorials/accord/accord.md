@@ -615,9 +615,9 @@ and
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| col 3 is    col 3 is  col 3 is  col 3 is  col 3 is  col 3  col 3 is  col 3 is  col 3 is  col 3 is    | some rdrdrdrdrdrdrdrdrdrdwordy text | $1600 |
+| col 2 is    col 3 is  col 3 is  col 3 is  col 3 is  col 3 is  col 3 is  col 3 is  col 3 is    | crdrdrdrdrdrdrdrdrdrdrdrdrdentered        |   $12 |
+| zebra stripe col 3 is  col 3 is  col 3 is  col 3 is s | are nerdrdrdrdat        |    $1 |
 
 [DONE]
 [ACCORDION-END]
