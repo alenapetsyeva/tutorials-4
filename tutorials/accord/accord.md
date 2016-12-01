@@ -303,6 +303,8 @@ Format: `![Alt Text](url)`
 [ACCORDION-BEGIN [Image ](jpg)]
 ![girl](https://s-media-cache-ak0.pinimg.com/originals/cc/a2/10/cca210efd1ee06836a0fe22fcee9061d.jpg)
 
+some words **bold** and other words *italic* and ***bold italic*** with Markdown.
+
 [DONE]
 [ACCORDION-END]
 
